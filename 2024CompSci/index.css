@@ -1,0 +1,85 @@
+body {
+    background: url('computer.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#appicon2 {
+   position: absolute; left: 60%; top: 40%;
+ 
+   
+}
+
+#appicon1 {
+   position: absolute; left: 35%; top: 30%;
+  
+}
+
+button {
+
+   background: transparent;
+   border: none;
+   font-size:0;
+}
+
+#buttonhome {
+   background: transparent;
+   border: none;
+   font-size:0;
+
+}
+
+
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #030f51;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* Change the link color to #111 (black) on hover */
+
+
+#instructions {
+   color: white;
+   text-align: center;
+   font-family: "Share Tech Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+   font-size: 2.5vw;
+}
+
+#teamicon {
+   width: 250px;
+}
+
+#neticon {
+   width: 50px;
+}
+
+#sporticon {
+   width: 50px;
+}
+
+#netsafe {
+   width: 100px;
+}
+
+#esports {
+   width: 100px;
+}

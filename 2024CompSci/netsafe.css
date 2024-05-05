@@ -1,0 +1,156 @@
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 700px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 850px) {}
+
+@media only screen and (min-width: 900px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1100px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #030f51;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+#body {
+    background-color: #42474f;
+    background: url(windowsbg.png);
+}
+
+#center {
+    background-color: white;
+    margin-top: 3%;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: #18223c;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#icon {
+    background-color: #18223c;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    padding-left: 2%;
+
+}
+
+
+iframe {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 50vw;
+    height: 40vw;
+    border-radius: 20px;
+    margin: 2vw;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+    padding-right: 1px;
+  }
+  .grid-item {
+    font-size: 100%;
+    text-align: center;
+
+  }
+
+  #item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-wrap: wrap;
+  }
+
+  #item5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-right: 20px;
+    text-wrap: wrap;
+  }
+
+  #item7 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  
+  #troll {
+    margin-left: 30%;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    width: 50%;
+  }
+
+ #superhappy {
+    border-radius: 20px;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    width: 20vw;
+
+ }
+
+
+  #plain {
+    padding-top: 2vw;
+  }
+
+  #teamicon {
+    width: 250px;
+ }
+ 
+ #neticon {
+    width: 50px;
+ }
+ 
+ #sporticon {
+    width: 50px;
+ }
